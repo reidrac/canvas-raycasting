@@ -164,13 +164,13 @@ var Obj = function(name, x, y, size, texture) {
 var Objects = function() {
 	var me = {
 		textures : [],
-		objs : [],
+		objs : []
 	};
 
 	me.init = function() {
 		var ver = 1, // increase this for refreshing the cache
 			i,
-			files = [ 'img/object.png', ];
+			files = [ 'img/object.png' ];
 		
 		for(i=0; i<files.length; i++) {
 			me.textures[i] = new Image();
@@ -230,7 +230,7 @@ var Map = function() {
 				 1,1,0,0,0,0,0,0,1,1,1,1,1,1,1,0,1,1,1,1,
 				 1,1,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,0,0,1,
 				 1,1,1,1,1,1,0,0,0,1,1,1,1,0,1,1,1,0,1,1,
-				 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+				 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 			     ],
 		automap : [],
 		// up to 33 x 23
@@ -245,7 +245,7 @@ var Map = function() {
 		ceiling0 : 'rgb(0, 0, 0)',
 		ceiling1 : 'rgb(80, 80, 80)',
 
-		objs : Objects(),
+		objs : Objects()
 	};
 
 	me.init = function() {
@@ -322,7 +322,7 @@ var Application = function(id) {
 
 		fps : 60,
 		_time : Date.now(),
-		_frames : 0,
+		_frames : 0
 	};
 
 	me.setup = function() {
