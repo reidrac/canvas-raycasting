@@ -1,7 +1,7 @@
 Canvas + Raycasting Experiment
 ==============================
 
-Requires canvas 2D and requestAnimationFrame support.
+Requires HTML5 canvas and requestAnimationFrame support.
 
 Tested with Firefox 19 and Chromium 23. Chromium seems to be slightly faster in
 my tests, but I get around 30 FPS in both browsers.
