@@ -10,8 +10,6 @@ I did this to try the HTML5 canvas element and to play around with Javascript.
 This demo is the result of a couple of hack sessions, so please keep it in mind
 when reading the code (as in "there are probably better ways of doing this").
 
-You can see the demo live at: http://blackshell.usebox.net/pub/canvas-raycasting/
-
 References:
 
  - http://lodev.org/cgtutor/raycasting.html
